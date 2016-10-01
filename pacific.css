@@ -1,6 +1,6 @@
 body {
-    background-color: #90C7E3;
-    background-image: linear-gradient( to bottom, #FFFFFF, #90C7E3);
+    background-color: #4F6D93;
+    background-image: linear-gradient( to bottom, #FFFFFF, #4F6D93);
     background-repeat: no-repeat;
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,21 +21,42 @@ h1 {
 }
 
 nav {
-    background-color: #FFFFFF;
-    padding: 10px;
-    text-align: center;
+    padding: 20px;
     font-weight: bold;
+    float: left;
+    width: 160px;
 }
 
 nav a {
     text-decoration: none;
 }
 
+nav a:link {
+    color: #000033;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em
+}
+
 main {
     padding-top: 1px;
     padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 20px
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    margin-left: 190px;
 }
 
 h2 {
@@ -46,9 +67,10 @@ h2 {
 
 h3 {
     color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
-ul {
+main ul {
     list-style: url(images/marker.gif);
 }
 
@@ -65,7 +87,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background: #FFFFFF;
+    background: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 3px 3px 3px #333333;
@@ -76,6 +98,7 @@ ul {
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #yurthero {
@@ -83,13 +106,14 @@ ul {
     background-size: 100% 100%;
     background-image: url(images/yurthero.jpg);
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #trailhero {
     height: 300px;
     background-image: url(images/trailhero.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 footer {
@@ -98,4 +122,6 @@ footer {
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
     padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
 }
